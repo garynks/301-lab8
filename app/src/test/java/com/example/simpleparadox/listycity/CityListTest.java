@@ -41,6 +41,6 @@ class CityListTest {
         City test_city = new City("Toronto", "Ontario");
         cityList.add(test_city);
 
-        assertSame(test_city, cityList.getCity());
+        assertSame(test_city, cityList.getCity(1));
     }
 }

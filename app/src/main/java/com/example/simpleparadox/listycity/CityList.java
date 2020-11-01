@@ -78,5 +78,7 @@ public class CityList {
         return cities.size();
     }
 
-//    public City getCity() { return 0;}
+    public City getCity(int idx) {
+        return cities.get(idx);
+    }
 }
